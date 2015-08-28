@@ -12,7 +12,7 @@ public class Application {
 		System.out.println("Enter a number: ");
 		
 		//Wait for the user to enter a line of text
-		int value = input.nextInt();
+		float value = input.nextFloat();
 		
 		// Tell them what they entered
 		System.out.println("You entered: " + value);
