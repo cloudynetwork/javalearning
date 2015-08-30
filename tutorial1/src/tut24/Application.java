@@ -7,13 +7,15 @@ class Thing {
 	public String name;
 	public static String description;
 	public static int count = 0;
+	public int id; //Instance variable 
 	
 	public Thing() {
+		id = count; 
 		count++; 
 	}
 	
 	public void showName() {
-		System.out.println(name);
+		System.out.println("Object id: " + id + ", description: " + name);
 	}
 	
 	public static void showInfo() {
@@ -39,6 +41,7 @@ public class Application {
 		thing2.name = "Sue";
 		
 		thing1.showName();
+		thing2.showName();
 		
 		Thing.showInfo();
 		
