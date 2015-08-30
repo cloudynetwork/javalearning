@@ -27,5 +27,17 @@ public class Application {
 		.append("I am a skydiver.");
 
 		System.out.println(s.toString());
+		
+		
+		///////// Formatting /////////
+		
+		System.out.printf("Total cost %-10d: quantity is %d\n", 7, 5);
+		
+		for(int i=0; i<20; i++) {
+			System.out.printf("%-2d: %s\n", i, "some text");
+			
+			System.out.printf("Total value: %.2f\n", 5.6777);
+			System.out.printf("Total value: %-6.1f\n", 343.3423);
+		}
 	}
 }
