@@ -1,19 +1,23 @@
-package tut26;abstract
+package tut26;
 
-class Frog {
-	
-	private String name; 
-	
-	public String toString() {
-		return "Hello";
-	}
-}
-
-public class Application {
-	public static void main(String[] args) {
-
-		Frog frog1 = new Frog("bleh");
-		
-		frog1.toString();
-	}
-}
+//class Frog {
+//	
+//	private String name; 
+//	
+//	public String toString() {
+//		return "Hello";
+//		
+//	public Frog {
+//		
+//	}
+//	}
+//}
+//
+//public class Application {
+//	public static void main(String[] args) {
+//
+//	Frog frog1 = new Frog();
+//		
+//		frog1.toString();
+//	}
+//}
