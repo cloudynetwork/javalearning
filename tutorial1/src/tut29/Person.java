@@ -1,6 +1,6 @@
 package tut29;
 
-public class Person {
+public class Person implements Info {
 	
 	private String name; 
 	
@@ -10,5 +10,11 @@ public class Person {
 
 	public void greet() {
 		System.out.println("Hello there");
+	}
+
+	@Override
+	public void showInfo() {
+		System.out.println("Person name is: " + name);
+		
 	}
 }
